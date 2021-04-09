@@ -65,7 +65,7 @@
                 </ul>-->
               </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="/master" class="nav-link">
           <i class="nav-icon fas fa-table"></i>
           <p>
             Tables
@@ -73,24 +73,19 @@
           </p>
         </a>
         <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="/table" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Table</p>
+                </a>
+              </li>
           <li class="nav-item">
-            <a href="../tables/simple.html" class="nav-link">
+            <a href="/data-tables" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Simple Tables</p>
+              <p>Data-Tables</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a href="../tables/data.html" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
-              <p>DataTables</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="../tables/jsgrid.html" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
-              <p>jsGrid</p>
-            </a>
-          </li>
+          
         </ul>
       </li>
     </ul>

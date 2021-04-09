@@ -25,7 +25,7 @@ Route::get('/table', function(){
     return view('adminlte.content.table');
 });
 
-route::get('data-tables', function(){
+route::get('/data-tables', function(){
 
     return view('adminlte.content.data-tables');
 
