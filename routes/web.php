@@ -14,3 +14,20 @@
 Route::get('/', 'HomeController@home');
 Route::get('/register', 'AuthController@register');
 Route::post('/welcome', 'AuthController@form');
+
+Route::get('/master', function() {
+
+    return view('adminlte.master');
+});
+
+Route::get('/table', function(){
+
+    return view('adminlte.content.table');
+});
+
+route::get('data-tables', function(){
+
+    return view('adminlte.content.data-tables');
+
+});
+    
